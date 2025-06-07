@@ -2,12 +2,12 @@
 Django를 이용한 웹사이트 프로젝트
 
 # Language
-Python == 3.10
-JavaScript
+Python == 3.10<br>
+JavaScript<br>
 
 # Library
-Django == 5.2.2
-gunicorn (배포 시 필요 / wsgi)
+Django == 5.2.2 <br>
+gunicorn (배포 시 필요 / wsgi)<br>
 
 # Website Address
 https://strayspeed.duckdns.org
@@ -42,7 +42,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 ```
 
 #### 2. 서버 설정
-GCP EC2 인스턴스를 이용해서 사이트를 돌리는 중
+GCP EC2 인스턴스를 이용해서 사이트를 돌리는 중<br>
 *참고 - Django 자체에서 서버 구동을 지원함*
 ```bash
 python manage.py runserver
