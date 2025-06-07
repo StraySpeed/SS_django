@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} About StraySpeed {% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/about-style.css' %}">
+{% endblock %}
+{% block content %}
+
+<div class="profile-card">
+    <img src="{% static 'img/circle-icon.png' %}" alt="프로필 사진" class="profile-img">
+    <h1>StraySpeed</h1>
+    <h4>Hi there 👋 I'm StraySpeed.<br>
+        Always make something weird.<br>
+        Abnormal, geek, bizarre, ...<br>
+        Just a.. freak.</h4>
+</div>
+
+{% endblock %}
